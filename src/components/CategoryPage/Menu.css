@@ -1,0 +1,42 @@
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; 
+  margin-right: 400px;
+  margin-left: 400px;
+}
+
+li {
+  list-style-type: none; /* Убираем маркеры */
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex .prod {
+  display: flex;
+  justify-content: center;
+  width: 69vw;
+  align-items: stretch;
+  margin-top: 50px;
+  align-content: stretch;
+  flex-wrap: wrap;
+}
+
+.prod .card {
+  width: 400px;
+  min-width: 350px;
+  margin-left: 3rem;
+  
+}
+
+.prod .card img {
+  width: 100%;
+}
+
+.card h3 {
+  font-size: 190%;
+}
