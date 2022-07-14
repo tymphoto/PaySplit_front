@@ -8,7 +8,7 @@ function Products({ el }) {
 
   return (
     <Card>
-      <Card.Img className="im" variant="top" src={el.img} alt="image" />
+      <Card.Img className="im" variant="top" src={`${process.env.REACT_APP_SERVER_PATH}/${el.img}`} alt="image" />
       <Card.Body>
         <p className="elName">{el.name}</p>
         <Card.Text>
